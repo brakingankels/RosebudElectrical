@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products and Services - RoseBud Electrical</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <img src="images/logo-white-1.png" alt="Rosebud Logo" class="logo">
+            <nav>
+                <a href="homePage.html">Home</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="productandServices">Products</a>
+                <a href="contact.html">Contact</a>
+                </nav>
+        <h1>Products and Services</h1>
+    </header>
+    <div class="container">
+        <p>As electricians within our company, our products and services are the main focus. We offer a range of essential products and services designed to ensure safe and efficient electrical systems. These include installation, repair, and maintenance of wiring, circuit breakers, and lighting systems. Our skilled electricians also provide diagnostic services to identify and troubleshoot electrical issues, ensuring systems operate correctly and safely. Additionally, we offer upgrades to meet current safety standards and enhance energy efficiency, ultimately providing peace of mind and reliable service to our customers.</p>
+    </div>
+</body>
+</html>
