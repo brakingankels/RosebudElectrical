@@ -3,38 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.contact-info {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-    text-align: left;
-}
-
-.contact-info h2 {
-    margin-bottom: 10px;
-}
-
-.contact-info p {
-    margin: 5px 0;
-}
-header {
-    display: flex;
-    align-items: flex-start; 
-    padding: 10px; 
-}
-
-header img {
-    max-width: 150px; 
-    height: auto; 
-    margin-right: 20px; 
-}
-
-nav {
-    display: flex;
-    gap: 15px; 
-}
-
 
 body {
     height: 100vh;
@@ -45,46 +13,59 @@ body {
     background-position: center;
     background-size: cover;
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
     font-family: Arial, sans-serif;
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: #2a8bc7;
+    background-color: #333;
     color: white;
     padding: 1rem;
     width: 100%;
+    justify-content: space-between;
 }
 
-.navbar-logo {
-    width: 100px;
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header img {
+    max-width: 80px;
     height: auto;
-    margin-right: 15px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 1.8rem;
 }
 
 nav {
     display: flex;
-    margin-left: auto; 
+    gap: 15px;
 }
 
 nav a {
-    margin: 0 15px;
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .content {
-    text-align: center; 
+    text-align: center;
     color: #fff;
-    flex: 1; 
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%; 
-    margin-top: 20px; 
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Adds a background overlay to improve readability */
 }
 
 .content h1 {
@@ -96,6 +77,24 @@ nav a {
     margin: 20px auto;
     font-weight: 300;
     line-height: 1.6;
+    max-width: 800px; /* Limits width for better readability */
+}
+
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 600px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
 }
 
 footer {
@@ -103,3 +102,4 @@ footer {
     padding: 10px;
     background-color: #ddd;
 }
+
